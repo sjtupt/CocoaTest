@@ -1,4 +1,4 @@
-#
+ #
 #  Be sure to run `pod spec lint CocoaTest.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CocoapodsTest123"
-  s.version      = "0.0.14"
+  s.version      = "0.0.3"
   s.summary      = "Testing Private "
 
   # This description is used to generate tags and improve search results.
@@ -133,6 +133,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "CocoapodsTest456"
+  # s.dependency "JSONKit", "~> 1.4"
 
 end
