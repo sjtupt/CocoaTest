@@ -10,4 +10,7 @@
 
 @implementation CocoaTest
 
+- (void)testCocaTest {
+    NSLog(@"testCocoaTest");
+}
 @end

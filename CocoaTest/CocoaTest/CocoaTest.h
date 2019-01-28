@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CocoaTest : NSObject
 
+- (void)testCocaTest;
+
 @end
 
 NS_ASSUME_NONNULL_END
