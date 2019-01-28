@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CocoapodsTest123"
-  s.version      = "0.0.22"
+  s.version      = "0.0.23"
   s.summary      = "Testing Private "
 
   # This description is used to generate tags and improve search results.
@@ -134,6 +134,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency 'CocoapodsTest456'
+  # s.dependency 'CocoapodsTest456'
 
 end
