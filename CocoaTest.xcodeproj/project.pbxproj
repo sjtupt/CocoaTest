@@ -14,6 +14,7 @@
 		A3E3553021FEF74300B05445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E3552E21FEF74300B05445 /* LaunchScreen.storyboard */; };
 		A3E3553321FEF74300B05445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E3553221FEF74300B05445 /* main.m */; };
 		A3E3553C21FEF76600B05445 /* CocoaTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E3553B21FEF76600B05445 /* CocoaTest.m */; };
+		A3E3554021FF066F00B05445 /* CocoapodsTest123.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E3553F21FF066F00B05445 /* CocoapodsTest123.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A3E3553221FEF74300B05445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3E3553A21FEF76600B05445 /* CocoaTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaTest.h; sourceTree = "<group>"; };
 		A3E3553B21FEF76600B05445 /* CocoaTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaTest.m; sourceTree = "<group>"; };
+		A3E3553E21FF066F00B05445 /* CocoapodsTest123.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoapodsTest123.h; sourceTree = "<group>"; };
+		A3E3553F21FF066F00B05445 /* CocoapodsTest123.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoapodsTest123.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		A3E3552221FEF74200B05445 /* CocoaTest */ = {
 			isa = PBXGroup;
 			children = (
+				A3E3553D21FF064F00B05445 /* CocoapodsTest123 */,
 				A3E3552321FEF74200B05445 /* AppDelegate.h */,
 				A3E3552421FEF74200B05445 /* AppDelegate.m */,
 				A3E3552621FEF74200B05445 /* ViewController.h */,
@@ -82,6 +86,15 @@
 				A3E3553B21FEF76600B05445 /* CocoaTest.m */,
 			);
 			path = CocoaTest;
+			sourceTree = "<group>";
+		};
+		A3E3553D21FF064F00B05445 /* CocoapodsTest123 */ = {
+			isa = PBXGroup;
+			children = (
+				A3E3553E21FF066F00B05445 /* CocoapodsTest123.h */,
+				A3E3553F21FF066F00B05445 /* CocoapodsTest123.m */,
+			);
+			path = CocoapodsTest123;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E3554021FF066F00B05445 /* CocoapodsTest123.m in Sources */,
 				A3E3552821FEF74200B05445 /* ViewController.m in Sources */,
 				A3E3553321FEF74300B05445 /* main.m in Sources */,
 				A3E3552521FEF74200B05445 /* AppDelegate.m in Sources */,
